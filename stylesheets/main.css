@@ -1,11 +1,11 @@
 .page-header {
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   background-color: firebrick;
   padding-top: 10px;
   padding-right: 10px;
   padding-bottom: 30px;
-  padding-left: 20px
+  padding-left: 20px;
 }
 
 .secondary-header {
@@ -14,20 +14,32 @@
   padding-top: 10px;
   padding-right: 10px;
   padding-bottom: 20px;
-  padding-left: 20px
+  padding-left: 20px;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0
+  padding: 0;
 }
 
+.top-section{
+  background-color: white;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+}
 .alignright {
   float: right;
-  font-size: 15px
+  font-size: 15px;
 }
 
 .alignleft {
-  float: left
+  float: left;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 20px;
 }
