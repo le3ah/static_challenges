@@ -2,9 +2,9 @@
   color: white;
   font-size: 25px;
   background-color: firebrick;
-  padding-top: 10px;
+  padding-top: 15px;
   padding-right: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 35px;
   padding-left: 20px;
 }
 
@@ -17,19 +17,42 @@
   padding-left: 20px;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.full-table {
+  display: table;
+  height: 100%;
+  width: 100%;
 }
 
-.top-section{
+.table {
+  display: table-cell;
+  text-align: alignleft;
+  vertical-align: top;
+  width: 70%;
+  padding: 1rem;
+}
+
+.top-section {
   background-color: white;
   padding-top: 15px;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 70px;
   padding-bottom: 15px;
 }
+
+.last-section {
+  color: white;
+  background-color: darkslategray;
+  padding-top: 20px;
+  padding-right: 25px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.links {
+  text-align: right;
+  color: white;
+}
+
 .alignright {
   float: right;
   font-size: 15px;
@@ -42,4 +65,13 @@ ul {
 h2 {
   font-weight: bold;
   font-size: 20px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 30px;
+  padding-right: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
 }
